@@ -33,6 +33,7 @@
   "scripts": {
     "compile": "rm -rf lib && tsc -p . && copyup src/assets/*.png lib",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "postintall": "yarn compile",
     "test": "jest",
     "type-coverage": "type-coverage"
   },
