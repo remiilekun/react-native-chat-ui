@@ -195,7 +195,7 @@ export const calculateChatMessages = (
 
     chatMessages = [
       {
-        showStatus: true,
+        showStatus: false,
         ...message,
         nextMessageInGroup,
         // TODO: Check this
