@@ -180,9 +180,7 @@ export const calculateChatMessages = (
         'day'
       )
 
-      nextMessageInGroup =
-        nextMessageSameAuthor &&
-        nextMessage!.createdAt! - message.createdAt! <= 60000
+      nextMessageInGroup = nextMessageSameAuthor
     }
 
     if (isFirst && messageHasCreatedAt) {
